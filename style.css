@@ -1,0 +1,74 @@
+.body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+.top-container {
+  padding: 0;
+  position: relative;
+}
+
+h1 {
+  color: #66bfbf;
+  font-size: 5.625rem;
+  margin: 10px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 0;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+ul li {
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .experience-detail {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+  }
+  .card {
+    width: 352px;
+    background-color: #66bfbf;
+    border: 5px solid burlywood;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 701px) {
+  .experience-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+  }
+
+  .card {
+    width: auto;
+    background-color: #66bfbf;
+    border: 5px solid burlywood;
+    border-radius: 8px;
+  }
+}
+
+h3 {
+  margin: 5px;
+  color: white;
+  background-color: purple;
+  padding: 10px;
+}
+h4 {
+  padding: 10px;
+}
